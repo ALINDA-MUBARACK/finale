@@ -255,7 +255,7 @@
     </table>
     <br>
 
-    <a href="assignment_2.html"><strong>ASSIGNMENT 2</strong></a>
+    <a href="assignment_2.html"><strong><h2>ASSIGNMENT 2</h2></strong></a>
 </body>
 
 </html>
