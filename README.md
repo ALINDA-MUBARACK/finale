@@ -1,146 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>My Profile Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta lang="en">
+    <title>My assignment</title>
     <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            margin: 20px;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            border: 1px solid #000;
-            padding: 20px;
-        }
-
-        .top-selection {
-            display: flex;
-            align-items: center;
-            padding-bottom: 20px;
-        }
-
-        .profile-pic {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            margin-right: 20px;
-        }
-
-
-        .social-selection {
-            display: flex;
-            justify-content: space-between;
-            padding-top: 20px;
-            align-items: center;
-            margin: 20px;
-        }
-
-        .social {
-            text-align: center;
-            flex: 1;
-        }
-
-        .icon {
-            font-size: 50px;
+        .vertical-text {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
     </style>
 </head>
 
-<body bgcolor="sky blue">
-    <div class="container">
-        <div class="top-selection">
-            <img src="mubs3.jpeg" alt="My profile picture" class="profile-pic">
+<body>
+    <h2>Question 1</h2>
+    <p>
+    </p>
+    <ol type="i">
+        <li> a<sup>2</sup> + b<sup>2</sup>= c<sup>2</sup></li>
+        <li>log<sub>b</sub>a =log<sub>c</sub>a/log<sub>c</sub>b</li>
+        <li>This text contains<sup>sensitive</sup>information which may be<sub>deciphered by <em><strong><span
+                            style="color: red;">NASA</span>.</strong></em></sub></li>
 
-            <p>
-                <strong>PROFILE</strong><br>
-                My name is Alinda Mubarack, a student at Kyambogo University pursuing a degree in Bachelors of
-                Information
-                Technology and Computing. I am passionate about technology and constantly eager to learn new skills,
-                especially in
-                networking, web development, and database management. I have a strong interest in Cisco networking and
-                Linux administration, which I am currently studying during my internship. I am hardworking, creative,
-                and enjoy solving problems using technology. In my free time, I enjoy watching movies and exploring
-                creative ideas in photography and design.
-            </p>
-        </div>
-        <h2>Education background</h2>
-        <div class="selection">
-            <ul align=>
-                <li>Kyambogo University</li>
-                <li>Midland High School Kawempe</li>
-                <li>Rwimi Parents' School</li>
+    </ol>
+    <p></p>
+    <h3>Question 2</h3>
+    <h3>i. My First List</h3>
+    <ol type="1">
+        <li>Fruits</li>
+        <ol type="i">
+            <li>Berries:</li>
+            <ul type="circle">
+                <li>Apples</li>
+                <li>Tomatoes</li>
             </ul>
-        </div>
-        <table border="1" style="border-collapse: collapse;">
-            <tr>
-                <th>Year</th>
-                <th>Instution</th>
-                <th>Award</th>
-            </tr>
-            <tr>
-                <td>2024 to date</td>
-                <td>Kyambogo University</td>
-                <td>Pending(Year two student)</td>
-            </tr>
-            <tr>
-                <td>2019 to 2020</td>
-                <td>Midland High School Kawempe</td>
-                <td>UACE certificate</td>
-            </tr>
-            <tr>
-                <td>2015 to 2018</td>
-                <td>Midland High School Kawempe</td>
-                <td>UCE certificate</td>
-            </tr>
-            <tr>
-                <td>2008 to 2014</td>
-                <td>Rwimi Parents' School</td>
-                <td>PLE certificate</td>
-            </tr>
-        </table>
-        <div class="selection">
-            <h3>Skills and Hobbies</h3>
-            <ul>
-                <li>Programming</li>
-                <li>Networking</li>
-                <li>Travelling</li>
-                <li>Watching movies</li>
-                <li>Touring</li>
+            <li>Drupes</li>
+            <ul type="square">
+                <li>Mango</li>
+                <li>Avocado</li>
             </ul>
-        </div>
-        <div class="social-selection">
-            <div class="social">
-                <a href="https://wa.me/256773776456" target="_blank">
-                    <i class="fa-brands fa-whatsapp icon"></i>
-                    <p>Whatsapp</p>
-                </a>
+        </ol>
+        <li>Vegetables</li>
+        <ol type="a">
+            <li>Leafy</li>
+            <ul type="radio">
+                <li>Kale</li>
+                <li>Spinach</li>
+            </ul>
+            <li>Non-leafy</li>
+            <ul type="radio">
+                <li>Cabbage</li>
+            </ul>
+        </ol>
+        <li>Meats</li>
+        <ul type="radio">
+            <li>White meats</li>
+            <ol type="A">
+                <li>Chicken</li>
+                <li>Tuna</li>
+            </ol>
+            <li>Read Meats</li>
+            <ul type="I">
+                <li>Beef</li>
+                <li>Mutton</li>
+            </ul>
+        </ul>
 
-
-            </div>
-            <div class="social">
-
-                <a href="https://facebook.com/Alin Mubz Winterwyn" target="_blank">
-                    <i class="fa-brands fa-facebook icon"></i>
-                    <p>Facebook</p>
-                </a>
-            </div>
-            <div class="social">
-                <a href="https://twitter.com/AlindaMuba36357" target="_blank">
-                    <i class="fa-brands fa-x-twitter icon"></i>
-                    <p>Twitter</p>
-                </a>
-
-            </div>
-
-        </div>
-    </div>
+    </ol>
+    <hr>
+    <h3>ii. My Second List</h3>
+    <ol type="A">
+        <li>Fruits</li>
+        <ol type="1">
+            <li>Berries:</li>
+            <ol type="a">
+                <li>Apples</li>
+                <li>Tomatoes</li>
+            </ol>
+            <li>Drupes</li>
+            <ol type="i">
+                <li>Mango</li>
+                <li>Avocado</li>
+            </ol>
+        </ol>
+        <li>Vegetables</li>
+        <ul type="radio">
+            <li>Leafy</li>
+            <ol type="i">
+                <li>Kale</li>
+                <li>Spinach</li>
+            </ol>
+            <li>Non-leafy</li>
+            <ol type="a">
+                <li>Cabbage</li>
+            </ol>
+        </ul>
+        <li>Meats</li>
+        <ul type="square">
+            <li>White meats</li>
+        </ul>
+    </ol>
     <br>
-    <a href="My assignment.html"><strong><h2>ASSIGNMENT 1</h2></strong></a>
+    <h3>My First Table</h3>
+    <table border="1" style="border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>SCS104</td>
+                <td></td>
+                <td>SCS105</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td>SCS102</td>
+                <td>SCS102</td>
+            </tr>
 
+        </tbody>
+    </table>
+    <br>
+    <h3>My Second Table</h3>
+    <table border="1" style="border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td rowspan="2">SCS1o1</td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+                <td rowspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS101</td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td>SCS102</td>
+                <td>SCS102</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>My Third Table</h3>
+    <table border="1" style="border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td rowspan="2">SCS101</td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+                <td rowspan="2">
+                    <ol type="i">
+                        <li rowspan="2">Eat</li>
+                        <li>Sleep</li>
+                    </ol>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS104</td>
+
+                <td>SCS105</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS101</td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td>SCS102</td>
+                <td>SCS102</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>My Fourth Table</h3>
+    <table border="1" style="border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th></th>
+                <th>Wednesday</th>
+                <th></th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td>SCS104</td>
+                <td rowspan="2" class="vertical-text"><strong>BREAK</strong></td>
+                <td>SCS105</td>
+                <td rowspan="2" class="vertical-text"><strong>LUNCH</strong></td>
+                <td rowspan="2">SCS102</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SCS111</td>
+                <td></td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <a href="assignment_2.html"><strong><h2>ASSIGNMENT 2</h2></strong></a>
 </body>
 
 </html>
